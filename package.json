@@ -1,0 +1,25 @@
+{
+  "name": "demoapp1",
+  "version": "1.0.0",
+  "description": "Demo App1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-my-local": "node node_modules/@sap/html5-repo-mock/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalkwatra/demoApp1.git"
+  },
+  "author": "Vishal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishalkwatra/demoApp1/issues"
+  },
+  "homepage": "https://github.com/vishalkwatra/demoApp1#readme",
+  "dependencies": {
+    "@sap/approuter": "^10.4.3",
+    "@sap/html5-repo-mock": "^2.0.3",
+    "@sap/ui5-builder-webide-extension": "^1.1.6",
+    "@ui5/cli": "^2.11.3"
+  }
+}
